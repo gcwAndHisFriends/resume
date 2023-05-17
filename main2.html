@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+        <style type="text/css">
+            a {
+            color: black; /* 设置a标签默认颜色为蓝色 */
+            text-decoration: none; /* 去掉下划线 */
+            font-weight:bold
+        }
+            a:hover {
+                text-decoration: underline; /* 鼠标悬停时添加下划线 */
+                color: red; /* 鼠标悬停时改变颜色为红色 */
+            }      
+            * {
+            margin: 0;
+            padding: 0;
+        }
+        /*设置容器盒子宽高及内边距*/
+        .text-hover {
+            width: 40rem;
+            height: 20rem;
+            padding: 2rem 10rem;
+        }
+        /*设置图片自适应及不显示的样式*/
+        .img-hover {
+            width: 100%;
+            height: aotu;
+            padding: 2rem 0;
+            display: none;
+        }
+        /*设置h2文字鼠标滑过的样式*/
+        h4:hover{
+            color: red;
+        }
+        /*设置鼠标滑过h2标签的文字时显示图片*/
+        h4:hover + .img-hover {
+            display: block;
+        }
+    
+
+        </style>
+	</head>
+	<body>
+        <div style="margin:0 auto;width:750px;height:2000px">
+            <div style="text-align: center;height:auto;font-size:35px;font-weight:bold;">
+                葛昌威
+            </div>
+            <div style="text-align: center;height:auto;font-size:20px">
+                +(86) 15023902518 530124948@qq.com
+            </div>
+            <div style="text-align: center;height:auto;font-size:20px">
+                重庆市南岸区学府大道66号重庆交通大学,邮编400074
+            </div>
+            <div style="padding-left:40px;font-weight:bold;">教育</div>
+            <div style="text-align:center; margin: auto;margin-top: 1px;width: 700px;text-align: center;border-bottom:2px solid #000000;"></div>
+            <div style="margin:0 auto;width:650px;margin-top:10px">
+                <a href="https://www.cqjtu.edu.cn/">重庆交通大学</a>
+            </div>
+            <div style="margin:0 auto;width:650px;margin-top:10px">
+                本科生，数据科学与大数据专业  <a href="">GPA(3.03/5.0)</a>
+                <br> 
+                主修课程：分布式系统，多元统计分析，数据挖掘与处理，数据库原理
+            </div>
+            <br>
+            <div style="padding-left:40px;font-weight:bold;">竞赛经历(部分)</div>
+            <div style="text-align:center; margin: auto;margin-top: 1px;width: 700px;text-align: center;border-bottom: 2px solid #000000;"></div>
+            <div style="margin:0 auto;width:650px;margin-top:10px">
+                <h4>国际大学生程序设计竞赛(香港站)铜牌</h4>
+                <img src="certificate/icpc.png" class="img-hover" alt="">
+                <h4>团体程序设计天梯赛个人二等奖(个人排名265/16304)</h4>
+                <img src="certificate/cccc.png" class="img-hover" alt="">
+                <h4>蓝桥杯C++ B组国赛一等奖</h4>
+                <img src="certificate/蓝桥杯国一.jpg" class="img-hover" alt="">
+                <h4>重庆交通大学程序设计竞赛第一名</h4>
+                <img src="certificate/程序设计校赛一等奖.jpg" class="img-hover" alt="">
+                <h4>codeforces rating 1778(max.1844)</h4>
+                <img src="certificate/折线图.png" class="img-hover" alt="">
+            </div>
+            <br>
+            <div style="padding-left:40px;font-weight:bold;">技能</div>
+            <div style="text-align:center; margin: auto;margin-top: 1px;width: 700px;text-align: center;border-bottom: 2px solid #000000;"></div>
+            <div style="margin:0 auto;width:650px;margin-top:10px">
+                熟练C++编程,使用C++写过2000余道算法题。了解<a href="https://github.com/gcwAndHisFriends/my_note/tree/main/C%2B%2B">现代C++语法</a>,STL,多线程,智能指针等。
+                <br>
+                熟悉<a href="https://github.com/gcwAndHisFriends/my_note/tree/main/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F">分布式系统</a>与<a href="https://github.com/gcwAndHisFriends/my_note/tree/main/%E6%95%B0%E6%8D%AE%E5%BA%93">磁盘数据库</a>存储原理。
+                <br>
+                熟悉或了解数据抽取、数据清洗与预处理、大数据运算(spark)、数据分析、数据可视化等一系列流程，有多次数据分析课程项目经验。
+                <br>
+                熟悉或了解算法竞赛和工程应用中涉及到的大部分<h4 style="display:inline;">数据结构</h4>
+                <img src="certificate/数据结构.png" class="img-hover" alt="">
+                与<h4 style="display:inline;">算法</h4>
+                <img src="certificate/算法.png" class="img-hover" alt="">
+            </div>
+            <br>
+            <div style="padding-left:40px;font-weight:bold;">项目经历</div>
+            <div style="text-align:center; margin: auto;margin-top: 1px;width: 700px;text-align: center;border-bottom: 2px solid #000000;"></div>
+            <div style="margin:0 auto;width:650px;margin-top:10px">
+                <h3 style="margin-top: 3px;"><a href="https://github.com/gcwAndHisFriends/Construct-Helper">C++ WebServer</a></h3>
+                <div style="font-size:15px;margin-top: 2px;">- 用于简化算法竞赛出题工作，解决构造测试数据时涉及到的文件重定向，路径问题，记录标准代码运行用时与资源消耗等。相当于是一个远程自动化脚本。</div>
+                <div style="font-size:15px">- 使用html与js制作了简单的<a href="https://github.com/gcwAndHisFriends/Construct-helper-web">前端页面</a></div>
+                <div style="font-size:15px">- 内置图数据构造器，可通过参数构造十余种<a href="https://github.com/gcwAndHisFriends/Construct-Helper/blob/main/clion/constructOperation.h">高随机性的图数据</a></div>
+                <div style="font-size:15px">- 针对任意参数下值不重复数列构造和稠密随机仙人掌构造方面提出了创新性方法，并完成了正确性证明、实验测试、复杂度分析。在<a href="http://yjsgl.cqjtu.edu.cn/gmis/dsfc/dsfcgrxx/602cb3337cf1c1706caea9794520b42d">图论方向的学业导师</a>的指导下完成论文编写，目前论文处于<a href="https://www.jsjkx.com/CN/1002-137X/home.shtml">外审阶段。</a></div>
+                <div style="font-size:15px">- 由于需要在服务器内运行用户代码,使用<a href="https://github.com/gcwAndHisFriends/Construct-Helper/blob/main/clion/judgeOperation.h">seccomp与setrlimit</a>限制程序可调用的内核函数和资源开销。</div>
+                <div style="font-size:15px">- 系统内实现了一个后缀自动机，用于过滤重复代码。配合宏展开工具与格式化工具亦可对危险代码段进行编译前过滤</div>
+                <h3 style="margin-top: 5px;"><a href="https://github.com/gcwAndHisFriends/bustub">数据库存储系统</a></h3>
+                <div style="font-size:15px;margin-top: 2px;">- 基于现代 C++ 开发的单机数据库存储系统,底层基于LRU-K替换设计了BufferPool,所有page操作在BufferPool上进行。 </div>
+                <div style="font-size:15px;">- 数据库建立在B+tree上,基于了RAII来管理释放page,采用悲观锁实现B+树的并发</div>
+            </div>
+            <br>
+            <div style="padding-left:40px;font-weight:bold;">其他小型项目</div>
+            <div style="text-align:center; margin: auto;margin-top: 1px;width: 700px;text-align: center;border-bottom: 2px solid #000000;"></div>
+            <div style="margin:0 auto;width:650px;margin-top:10px">
+                <div style="font-size:15px">- <a href="https://github.com/gcwAndHisFriends/Libnet">C++ server端通讯模块</a>:从socket开始封装,使用epoll进行多路复用,经序列化后将报文引用放入队列，由线程池并发处理事务，接口使用注册函数式逻辑。</div>
+                <div style="font-size:15px">- <a href="https://github.com/gcwAndHisFriends/mit-6.824-lab2">Raft分布式系统</a>:<a href="https://pdos.csail.mit.edu/6.824/schedule.html">mit6.824</a>课程实验,使用C++实现的Raft共识算法,通过了用中转服务器模拟出的网络分区、网络随机延迟丢包、报文乱序等情况的测试</div>
+                <div style="font-size:15px">- <a href="https://github.com/gcwAndHisFriends/Libnet/blob/demo/README.md">RPC_STL</a>对<a href="https://www.boost.org/doc/libs/1_82_0/doc/html/interprocess.html">boost::interprocess</a>进行的封装,利用共享内存,实现在C++进程间用消息队列传递std::map,并通过RAII来管理释放。</div>
+            </div>
+            <div style="padding-left:40px;font-weight:bold;">个人总结</div>
+            <div style="text-align:center; margin: auto;margin-top: 1px;width: 700px;text-align: center;border-bottom: 2px solid #000000;"></div>
+            <div style="margin:0 auto;width:650px;margin-top:10px">
+                <div style="font-size:15px">能快速上手新技术，乐于分享与总结。</div>
+                <div>在CSDN上发布约一百余篇<a href="https://blog.csdn.net/fdxgcw">算法题解</a>,记录了约500kb的C++/并发/分布式/数据库<a href="https://github.com/gcwAndHisFriends/my_note">笔记</a></div>
+            
+            </div>
+        </div>
+        
+        
+	</body>
+</html>
+
+
